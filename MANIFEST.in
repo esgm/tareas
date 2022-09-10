@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tareas *.css
+recursive-include tareas *.csv
+recursive-include tareas *.html
+recursive-include tareas *.ico
+recursive-include tareas *.js
+recursive-include tareas *.json
+recursive-include tareas *.md
+recursive-include tareas *.png
+recursive-include tareas *.py
+recursive-include tareas *.svg
+recursive-include tareas *.txt
+recursive-exclude tareas *.pyc
